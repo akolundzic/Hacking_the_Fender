@@ -21,4 +21,5 @@ Use your knowledge of working with Python files to retrieve, manipulate, obscure
 14. Create a Python dictionary object within your with statement that relays a boss message. Call this boss_message_dict. Give it a "recipient" key with a value "The Boss". Also give it a "message" key with the value "Mission Success".
 15. Write out boss_message_dict to boss_message using json.dump().
 16. Now that we’ve safely recovered the compromised users we’ll want to remove the "passwords.csv" file completely. Create a new with block and open "new_passwords.csv" in write-mode. Save the file object to a variable called new_passwords_obj.
-17. Enemy of the people, Slash Null, is who we want The Fender to think was behind this attack. He has a signature, whenever he hacks someone he adds this signature to one of the files he touches. Signature, look at the main.py slash_null_sig 
+17. Enemy of the people, Slash Null, is who we want The Fender to think was behind this attack. He has a signature, whenever he hacks someone he adds this signature to one of the files he touches. Signature, look at the main.py slash_null_sig.
+18. Write slash_null_sig to new_passwords_obj. Now we have the file to replace passwords.csv with!
